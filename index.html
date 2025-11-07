@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="">
     <header class="mt-8">
       <!-- navbar-->
-      <nav class="flex w-6xl justify-between m-auto mb-32">
+      <nav class="lg:flex lg:w-6xl lg:justify-between lg:m-auto lg:mb-32 sm:min-w-96 sm:grid sm:grid-cols-1 sm:justify-center">
         <img class="w-33 h-20" src="assets/logo.png" alt="logo" />
         <div class="flex gap-9 text-center py-5">
-          <li class="list-none text-base font-bold text-[#252432]">
+          <li class="lg:list-none lg:text-base lg:font-bold lg:text-[#252432]">
             <a class="no-underline" href="">Home</a>
           </li>
           <li class="list-none text-[#8987A1]">
@@ -28,12 +28,12 @@
       </nav>
 
       <!--banner-->
-      <section class="banner w-6xl m-auto flex mb-32">
-        <div class="w-[570px] flex flex-col justify-end">
+      <section class="lg:w-6xl m-auto lg:flex lg:mb-32 sm:grid sm:grid-cols-1">
+        <div class="lg:w-[570px] lg:flex lg:flex-col lg:justify-end">
           <div>
-            <div><h1 class="font-serif font-bold text-black text-6xl">
+            <div><h1 class="font-serif font-bold text-black lg:text-6xl sm:text-6">
               ALWAYS <span class="text-[#E95A08]">FRESH </span></div><br />
-              <span class="text-[#E95A08] font-serif font-bold text-6xl">FLOWERS</span>
+              <span class="text-[#E95A08] font-serif font-bold lg:text-6xl sm:text-6">FLOWERS</span>
             </h1>
           </div>
           <p class="text-[#8987A1] mt-3">
@@ -253,14 +253,14 @@
 </section>
 
 <!--Footer-->
-<section class="w-6xl m-auto py-16">
-    <div class="flex justify-between">
-        <div class="w-92 h-44">
+<section class="lg:w-6xl lg:m-auto lg:py-16 sm:mt-12 sm:ml-6 sm:grid sm:grid-cols-1 sm:gap-5">
+    <div class="lg:flex lg:justify-between sm:grid sm:grid-cols-1 sm:gap-5 ">
+        <div class="lg:w-92 lg:h-44 sm:w-auto" >
             <img src="assets/logo.png" alt="">
             <p class="text-[#8987A1]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
         </div>
-        <div class="flex mx-24">
-            <div class="text-[#8987A1] list-none mr-24">
+        <div class="lg:flex lg:mx-24">
+            <div class="text-[#8987A1] list-none lg:mr-24">
                 <li class="">Home</li>
                 <li class="my-6">About Us</li>
                 <li>Blog</li>
@@ -275,7 +275,7 @@
                 <li>Help Center</li>
             </div>
         </div>
-        <div class="flex w-52 h-9">
+        <div class="lg:flex lg:w-52 lg:h-9 sm:flex sm:justify-between sm:mt-6  ">
             <img src="assets/icon-linkedin.png" alt="">
             <img class="px-6" src="assets/icon-twitter.png" alt="">
             <img src="assets/icon-facebook.png" alt="">
